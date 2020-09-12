@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="eng">
 <head>
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Healthy food</title>
+<title>Gaubhoomi</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<linl rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="mystyle.css">
 <style>
 * {
   box-sizing: border-box;
@@ -19,18 +22,18 @@
 
 .aboutus{
         align:center;
-        font-size:2.21em;
-         color:green;
+        font-size:20px;
+         color:#339933;
          margin-left:40%;
+         font-family: 'Alegreya Sans';
 }
 
 .btn{
-    border: 5px;
-  color: white;
-  background-color:green;
-  padding: 10px 10px;
-  font-size: 30px;
+  color:white;
+  font-size: 20px;
   margin-right:150px;
+  background-color:#339933;
+  font-family: 'Alegreya Sans';
   }
   .img{
       border-radius:50%;
@@ -41,7 +44,7 @@
   height:auto;
 	margin: 0 auto;
 	padding: 20px 10px;
-	overflow: hidden;
+	
 	border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
 }
@@ -65,93 +68,127 @@
     bottom: 15px;
     width: 100%;
     padding: 5px 0;
-    font-size: 21px;
+    font-size: 20px;
     color: white;
 	text-align: center;
-	background-color: green;
-    font-family: sans-serif;
+	background-color:#339933;;
+    font-family: 'Alegreya Sans';
 }
-.footdiv{
-  background-color: green;
+.headdiv{
+  margin-bottom:0px;
+  width:100%;
+  height:auto;
+  background-color:#339933;
+}
+
+
+.subbtn{
+    border: 5px;
+  color: white;
+  background-color:#339933;
+  padding: 10px 10px;
+  font-size: 20px;
+  font-family: 'Alegreya Sans';
+  }
+
+  .footdiv{
+  background-color:#339933;
 	width: 100%;
 	margin: 0 auto;
 	padding: 15px 10px;
 	overflow: hidden;
 	color:white;
-  font-size:23px;
+  font-size:20px;
+  font-family: 'Alegreya Sans';
 }
 
-.headdiv{
-  width:100%;
-  height:auto;
-  background-color:green;
-}
-.subbtn{
-    border: 5px;
-  color: white;
-  background-color:green;
-  padding: 10px 10px;
-  font-size: 24px;
-  }
 .myleftdiv{
-        width:20%;
+        width:25%;
         float:left;
         text-align:right;
-        
+        font-size:20px;
+}
+.mycenterdiv{
+  float:center;
+  width:55%;
+  text-align:center;
+  
 }
 .myrightdiv{
         width:20%;
         float:right;
         text-align:left;
+        font-size:20px;
+        
 }
 .fb{
   background-color:#3B5998;
   color:white;
 }
-.container{
-  display:flex;
-  background-color:green;
-  justify-content:center;
-  align-content:flex-end;
-
+.logo{
+  float:left;
+  width:auto;;
+  height:auto;
+  margin-right;
+  border-radius:60%;
 }
-.container>div{
-   background-color:green;
-    margin:10px;
-    width:100px;
-    text-align:center;
-    line-height:70px;
-    font-size:30px;
-
+.social{
+        font-size:20px;
+        margin-right:70px;
+        margin-top:20px;
+         float:right; 
+         height:auto;
+         width:auto;
+         font-family: 'Alegreya Sans';
 }
-.subdiv{
-       float:right;
-       margin-right:250px;
-      text-align:center;
+.navbar{
+  overflow:hidden;
+  position:sticky;
+  top:0px;
+  width:100%;
+  z-index:2;
 }
- 
+.navbar a{
+  float:left;
+  display:block;
+  text-align:center;
+  z-index:2;
+}
+.navbar a:hover{
+  background:#339933;
+}
 
 </style>
 </head>
 <body>
+
+<div class="logo">
 <img src="gaubhoomipic.jpg">
-
-<i class="fa fa-whatsapp" style="font-size:32px;color:green;margin-right:20px;margin-top:10px; float:right">
-&nbsp;&nbsp;9876543210 </i>
-
-<br>
-
-<div class="headdiv">
-<a href="homepage.html">
-<button type="button" class="btn">Home</button></a>
-<a href="aboutus.html">
-<button type="button" class="btn">About us</button></a>
+<div style="float:right;">
 </div>
-<img src="vegbuck.jpg" style="width:50%;float:right;margin-left:20%;"><br>
+<div class="social">
+<i class="fa fa-whatsapp" style="color:green;">
+&nbsp;&nbsp;9876543210 </i><br>
+<a href="https://www.facebook.com/gaubhumi">
+<i class="fa fa-facebook-f" style="color:blue;"></i>
+&nbsp;&nbsp;Gau Bhoomi</i></a>
+</div>
 
-<h1 style="text-align:center;color:green;font-size:45px;">OUR VEGETABLES</h1>
 
+<div class="headdiv navbar ">
+<a href="homepage.html">
+<button type="button" class="btn">HOME</button></a>
+<a href="aboutus.html">
+<button type="button" class="btn">ABOUT US</button></a>
+</div>
+<div style:width:auto;height:auto;>
+<img src="veg.jpg" style="width:100%;height:500px;">
+</div>
+<div>
+<h1 style="text-align:center;color:#339933;font-size:45px;font-family: 'Alegreya Sans';">OUR VEGETABLES</h1>
+</div>
 <div class='content'>
+
 <div class='photo'>
 <div class='image'><a href='#'><img src="kheera.jpg" alt='profile picture' width='300' height='300'></a></div>
 <div class='photo-name'>Kheera</div>
@@ -201,37 +238,43 @@
 <div class='photo-name'>Moringa leaves</div>
 </div>
 <div class='photo'>
-<div class='image'><a href='#'><img src="kathal.jpg" alt='profile picture' width='300' height='300'></a></div>
-<div class='photo-name'>kathal</div>
+<div class='image'><a href='#'><img src="kathal1.jpg" alt='profile picture' width='300' height='300'></a></div>
+<div class='photo-name'>Kathal</div>
 </div>
 <div class='photo'>
-<div class='image'><a href='#'><img src="lemon.jpg" alt='profile picture' width='300' height='300'></a></div>
+<div class='image'><a href='#'><img src="lemon1.jpg" alt='profile picture' width='300' height='300'></a></div>
 <div class='photo-name'>Nimbu</div>
 </div>
 <div class='photo'>
-<div class='image'><a href='#'><img src="lashan.jpg" alt='profile picture' width='300' height='300'></a></div>
+<div class='image'><a href='#'><img src="lashun.jpg" alt='profile picture' width='300' height='300'></a></div>
 <div class='photo-name'>Lahsun</div>
 </div>
 </div>
 
 
 
-<div class="footdiv">
-<div class="myleftdiv">
+<div class="footdiv row">
+<div class="myleftdiv col-sm-4">
 <b>CONTACT</b><br>
 <b>Address</b><br>
 <address>
-102- Milan street<br>
+Kulena, Palwal<br>
 Faridabad<br>
 Haryana, 121004<br>
 </address>
-&#128222; 9876543210<br>
+&#128222;+91 8607175417<br>
 &#128231;
 <a href="wwww.myemail@gmail.com">myemail@gmail.com</a><br>
-
-
 </div>
-<div class="myrightdiv">
+
+
+<div class="mycenterdiv col-sm-4">
+<img src="plant3.jpg" style="height:150px;width:150px; border-radius:50%;">
+<img src="plant3.jpg" style="height:200px;width:200px; border-radius:50%;">
+<img src="plant3.jpg" style="height:150px;width:150px; border-radius:50%;">
+</div>
+
+<div class="myrightdiv col-sm-4">
 <b>Why choose Us</b><br>
  &#127793;Always Fresh<br>
  &#10084; Super Healthy<br>
@@ -239,11 +282,7 @@ Haryana, 121004<br>
 &#127941;Premium Quality<br>
 </div>
 
-<div class="subdiv">
-<label for="subscribe" ><b>SUBSCRIBE TO US!</b></label><br>
-<input for="email" style="border-radius:18px;padding:10px 15px; color:black;" value="Enter your Email Address"><br>
-<button type="button" class="subbtn" value="SUBMIT"><b>Submit</b></button>
 </div>
-</div>
+
 </body>
 </html>
