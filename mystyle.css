@@ -72,37 +72,6 @@
   padding: 10px 10px;
   font-size: 20px;
   font-family: 'Alegreya Sans';
-  }
-
-  .footdiv{
-  background-color:#339933;
-	width: 100%;
-	margin: 0 auto;
-	padding: 15px 10px;
-	overflow: hidden;
-	color:white;
-  font-size:20px;
-  font-family: 'Alegreya Sans';
-}
-
-.myleftdiv{
-        width:25%;
-        float:left;
-        text-align:right;
-        font-size:20px;
-}
-.mycenterdiv{
-  float:center;
-  width:55%;
-  text-align:center;
-  
-}
-.myrightdiv{
-        width:20%;
-        float:right;
-        text-align:left;
-        font-size:20px;
-        
 }
 .fb{
   background-color:#3B5998;
@@ -115,6 +84,23 @@
   margin-right;
   border-radius:60%;
 }
+.header{
+  overflow:hidden;
+  position:sticky;
+  top:0px;
+  width:auto;
+  z-index:2;
+  background-color:white;
+}
+.header a{
+  float:left;
+  z-index:2;
+  background-color:white;
+}
+.header a:hover{
+  background-color:white;
+}
+
 .social{
         font-size:20px;
         margin-right:70px;
@@ -123,11 +109,42 @@
          height:auto;
          width:auto;
          font-family: 'Alegreya Sans';
+         
+      
 }
+.footdiv{
+  background-color:#339933;
+	width: 100%;
+  height:auto;
+	margin: 0 auto;
+	padding: 15px 10px 10px;
+	overflow: hidden;
+	color:white;
+  font-size:20px;
+  font-family: 'Alegreya Sans';
+}
+
+.column{
+    float:left;
+    width:30%;
+    padding:10px;
+    margin-left:20px;
+    height:400x;
+    font-size:20px;
+    font-family: 'Alegreya Sans';
+    color:white;
+    background-color:#339933;
+}
+.row:after{
+    content:"";
+display:table;
+clear:both;
+}
+
 .navbar{
   overflow:hidden;
   position:sticky;
-  top:0px;
+  top:90px;
   width:100%;
   z-index:2;
 }
