@@ -1,73 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Website Layout</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-body {
-  margin: 0;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
-}
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
-  .column {
-    width: 100%;
-    float:center;
-    text-align:center;
+  <link href='https://fonts.googleapis.com/css?family=Encode Sans Expanded' rel='stylesheet'>
+  <style>
+  body{
+    background-image:url('back3.jpg');
+    width:100%;
+    height:700px;;
   }
-}
-</style>
+  h1{
+    text-align:center;
+    margin-top:250px;
+  }
+  </style>
+
 </head>
 <body>
-
-
-<div style="background-color:#339933; width:100%;height:auto;">
-<div class="row">
-  <div class="column">
-  <b>CONTACT</b><br>
-<b>Address</b><br>
-<address>
- Kulena, Palwal<br>
-Faridabad<br>
-Haryana, 121004<br>
-</address>
-<a href="tel:8930943259" style="color:white;"> &#128222;860-717-5417</a><br>
-&#128231;
-<a href="wwww.myemail@gmail.com" style="color:white;">myemail@gmail.com</a>
-
-</div>
-  
-  <div class="column">
-  <img src="gaubhoomipic.jpg" style="height:150px;width:250px; border-radius:50%;">
-  </div>
-  
-  <div class="column">
-     <b>Why choose Us</b><br>
- &#127793;Always Fresh<br>
- &#10084;Super Healthy<br>
- &#127811;100% Natural<br>
- &#127941;Premium Quality<br>
-
- </div>
-</div>
-</div>
-
+  <h1>We Provides Fresh Vegetables</h1>
 </body>
 </html>
